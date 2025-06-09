@@ -9,7 +9,7 @@ export {
 
 export const unstable_settings = {
   // Ensure that reloading on `/modal` keeps a back button present.
-  initialRouteName: 'start/escolha_02',
+  initialRouteName: 'start/suplementacao',
 };
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
