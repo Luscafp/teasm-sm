@@ -23,7 +23,6 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   isLast,
 }) => (
   <View className="p-4">
-    <Text className="text-center text-xl font-bold text-blue-500">Praticar</Text>
 
     <View className="my-4 rounded-lg border p-4 bg-white shadow">
       <Text className="font-semibold">{questionData.question}</Text>
