@@ -20,15 +20,15 @@ const Gestantes: React.FC = () => {
 
       <View className="flex-1 justify-center mt-8 gap-y-4">
         <View className="gap-y-4">
-          <AppButton onPress={() => handleNavigate('acido_folico')}>
+          <AppButton onPress={() => handleNavigate('acido folico/acido_folico')}>
             <Text className="text-primary text-xl font-bold text-center">Ácido Fólico</Text>
           </AppButton>
 
-          <AppButton onPress={() => handleNavigate('calcio')}>
+          <AppButton onPress={() => handleNavigate('calcio/calcio')}>
             <Text className="text-primary text-xl font-bold text-center">Cálcio</Text>
           </AppButton>
 
-          <AppButton onPress={() => handleNavigate('ferro')}>
+          <AppButton onPress={() => handleNavigate('ferro/ferro')}>
             <Text className="text-primary text-xl font-bold text-center">Ferro</Text>
           </AppButton>
         </View>

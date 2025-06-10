@@ -19,7 +19,7 @@ const AcidoFolicoInfo: React.FC = () => {
   };
 
   const images: ImageItem[] = [
-    { id: 3, uri: require('../../assets/acido_folico.png'), title: "Ácido Fólico" }
+    { id: 3, uri: require('assets/acido_folico.png'), title: "Ácido Fólico" }
   ];
 
   const handleImagePress = (image: ImageItem) => {
@@ -61,7 +61,7 @@ const AcidoFolicoInfo: React.FC = () => {
           </View>
 
           <View className="gap-y-4 mb-24 px-6"> 
-            <AppButton onPress={() => handleNavigate('acido_folico_saiba_mais')}>
+            <AppButton onPress={() => handleNavigate('acido folico/acido_folico_saiba_mais')}>
               <Text className="text-primary text-xl font-bold text-center">Saiba mais</Text>
             </AppButton>
           </View>

@@ -20,11 +20,11 @@ const acidoFolico_01: React.FC = () => {
 
       <View className="flex-1 justify-center mt-8 gap-y-4">
         <View className="gap-y-4">
-          <AppButton onPress={() => handleNavigate('acido_folico_info')}>
+          <AppButton onPress={() => handleNavigate('acido folico/acido_folico_info')}>
             <Text className="text-primary text-xl font-bold text-center">Informações</Text>
           </AppButton>
 
-          <AppButton onPress={() => handleNavigate('acido_folico_praticar_01')}>
+          <AppButton onPress={() => handleNavigate('acido folico/acido_folico_praticar_01')}>
             <Text className="text-primary text-xl font-bold text-center">Testando {'\n'}Conhecimento</Text>
           </AppButton>
         </View>
@@ -36,7 +36,7 @@ const acidoFolico_01: React.FC = () => {
           </Text>
         </View>
         <Image
-          source={require('../../assets/leonardo_2.png')}
+          source={require('assets/leonardo_2.png')}
           className="w-64 h-96"
           resizeMode="contain"
         />

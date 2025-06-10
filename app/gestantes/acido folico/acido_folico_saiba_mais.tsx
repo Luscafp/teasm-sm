@@ -28,7 +28,6 @@ const AcidoFolicoSaibaMais: React.FC = () => {
           <View className="h-0.5 bg-blue-400 mt-2 mb-6 mx-6" />
         </View>
 
-        {/* Conteúdo expansível */}
         <View className="mb-8 space-y-4">
           <ExpandableButton
             title="O que é ácido fólico?"
@@ -57,7 +56,6 @@ const AcidoFolicoSaibaMais: React.FC = () => {
         </View>
       </ScrollView>
 
-      {/* HomeButton fixo na parte inferior */}
       <View className="absolute bottom-0 w-full">
         <HomeButton />
       </View>
