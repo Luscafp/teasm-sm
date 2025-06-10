@@ -19,8 +19,10 @@ const Escolha01: React.FC = () => {
         </View>
 
         <View className="mx-auto mt-[10%] w-[40%] items-center gap-y-6">
+          {/* Botão Suplementação Micronutrientes */}
           <View className="w-full items-center gap-y-1">
             <TouchableOpacity
+              onPress={() => router.push('/start/suplementacao_micro')}
               activeOpacity={0.8}
               className="aspect-square justify-center rounded-[15px] bg-black p-px pb-1">
               <View className="bg-accent w-full rounded-2xl">
@@ -32,8 +34,10 @@ const Escolha01: React.FC = () => {
             </Text>
           </View>
 
+          {/* Botão Escolha Grupo Populacional */}
           <View className="w-full items-center gap-y-1">
             <TouchableOpacity
+              onPress={() => router.push('start/escolha_02')}
               activeOpacity={0.8}
               className="aspect-square w-full justify-center rounded-[15px] bg-black p-px pb-1">
               <View className="bg-accent w-full flex-col items-center rounded-2xl">
