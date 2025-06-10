@@ -49,7 +49,7 @@ const Escolha01: React.FC = () => {
 
         <View className="mb-[20%] mt-auto items-center justify-center">
           <AppButton
-            onPress={() => router.push('/start/escolha_02')}
+            onPress={() => router.push('/start/sobre')}
             buttonClassName="bg-white py-0">
             <Text className="text-primary text-center text-xl font-bold">
               {'Sobre o\naplicativo'}

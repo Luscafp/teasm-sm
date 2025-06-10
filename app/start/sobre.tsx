@@ -9,35 +9,56 @@ const Sobre: React.FC = () => {
 
   return (
     <SafeAreaView className="bg-background flex-1">
-        <View className="flex-1">
-            <View className="w-full bg-background py-4 px-4">
-            <Text className="text-xl font-bold text-center text-primary uppercase">
-                SOBRE
-            </Text>
-            <View className="h-0.5 bg-blue-500 mx-4 mt-2" />
-            </View>
+      {/* Cabeçalho */}
+      <View className="w-full bg-background py-4 px-4">
+        <Text className="text-xl font-bold text-center text-primary uppercase">
+          SOBRE
+        </Text>
+        <View className="h-0.5 bg-blue-500 mx-4 mt-2" />
+      </View>
+
+      {/* Conteúdo principal com scroll */}
+      <View className="flex-1 items-center px-4">
+        {/* Container das imagens */}
+        <View className="items-center my-4">
+          <Image 
+            className="w-48 h-48 mb-6" 
+            source={require('../../assets/ufma.png')} 
+            resizeMode="contain"
+          />
+          <Image 
+            className="w-48 h-48" 
+            source={require('../../assets/gepsfca.png')} 
+            resizeMode="contain"
+          />
         </View>
 
-        <Image className="" source={require('../../assets/ufma.png')} />
-        <Image className="" source={require('../../assets/gepsfca.png')} />
-
-        <Text className="">
-            FRANCISCA GEORGINA MACEDO DE SOUSA {'/n'}
-            Enfermeira, Mestre e Doutora em Enfermagem
+        {/* Textos formatados */}
+        <View className="w-full mb-8">
+          <Text className="text-lg font-bold text-center text-gray-800 mb-2">
+            FRANCISCA GEORGINA MACEDO DE SOUSA
+          </Text>
+          <Text className="text-base text-center text-gray-600">
+            Enfermeira, Mestre e Doutora em Enfermagem{'\n'}
             Docente UFMA, Líder do GEPSFCA/UFMA
-        </Text>
+          </Text>
+        </View>
 
-        <Text className="">
-            LEONARDO SILVA MELO {'/n'}
-            Estudante do curso de Graduação em Enfermagem da
-            Universidade Federal do Maranhão, Membro do Grupo 
-            de Estudo de Pesquisa na Saúde da Família, Criança e
-            Adolescente - GEPSFCA/UFMA  
-        </Text>
-        
-        <HomeButton></HomeButton>
+        <View className="w-full mb-8">
+          <Text className="text-lg font-bold text-center text-gray-800 mb-2">
+            LEONARDO SILVA MELO
+          </Text>
+          <Text className="text-base text-center text-gray-600">
+            Estudante do curso de Graduação em Enfermagem da{'\n'}
+            Universidade Federal do Maranhão, Membro do Grupo{'\n'} 
+            de Estudo de Pesquisa na Saúde da Família, Criança e{'\n'}
+            Adolescente - GEPSFCA/UFMA
+          </Text>
+        </View>
+      </View>
+
+      <HomeButton />
     </SafeAreaView>
-    
   );
 };
 
