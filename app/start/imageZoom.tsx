@@ -6,6 +6,7 @@ import { Image } from 'react-native';
 const imageMap: Record<number, any> = {
   1: require('../../assets/micronutrientes_1.png'),
   2: require('../../assets/micronutrientes_2.png'),
+  3: require('../../assets/acido_folico.png')
 };
 
 const ImageZoom = () => {
