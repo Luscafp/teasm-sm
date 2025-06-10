@@ -21,8 +21,8 @@ const Suplementação: React.FC = () => {
 
   const handleImagePress = (image: ImageItem) => {
     router.push({ 
-      pathname: '/imageZoom', 
-      params: { image: JSON.stringify(image) }
+      pathname: '/start/imageZoom', 
+      params: { id: String(image.id) }
     });
   };
 
@@ -49,9 +49,6 @@ const Suplementação: React.FC = () => {
                 className="w-full h-48"
                 resizeMode="cover"
               />
-              <Text className="text-center py-2 font-medium text-gray-700">
-                {image.title}
-              </Text>
             </TouchableOpacity>
           ))}
         </View>

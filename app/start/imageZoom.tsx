@@ -1,18 +1,28 @@
-import { Image, Text, View } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
+import ImageViewing from 'react-native-image-viewing';
+import { useState } from 'react';
+import { Image } from 'react-native';
 
-export default function ImageZoom() {
-  const params = useLocalSearchParams();
-  const image = JSON.parse(params.image as string);
+const imageMap: Record<number, any> = {
+  1: require('../../assets/micronutrientes_1.png'),
+  2: require('../../assets/micronutrientes_2.png'),
+};
+
+const ImageZoom = () => {
+  const { id } = useLocalSearchParams();
+  const numericId = Number(id);
+  const [visible, setVisible] = useState(true);
+
+  const imageUri = Image.resolveAssetSource(imageMap[numericId]).uri;
 
   return (
-    <View className="flex-1 bg-black justify-center">
-      <Image
-        source={image.uri}
-        className="w-full h-80"
-        resizeMode="contain"
-      />
-      <Text className="text-white text-center mt-4">{image.title}</Text>
-    </View>
+    <ImageViewing
+      images={[{ uri: imageUri }]}
+      imageIndex={0}
+      visible={visible}
+      onRequestClose={() => setVisible(false)}
+    />
   );
-}
+};
+
+export default ImageZoom;
