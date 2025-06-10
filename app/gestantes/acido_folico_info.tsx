@@ -57,7 +57,7 @@ const acidoFolicoInfo: React.FC = () => {
           ))}
         </View>
         <View className="gap-y-4 mb-6 px-6">
-            <AppButton onPress={() => handleNavigate('acido_folico_praticar_01')}>
+            <AppButton onPress={() => handleNavigate('acido_folico_saiba_mais')}>
                 <Text className="text-primary text-xl font-bold text-center">Saiba mais</Text>
             </AppButton>
         </View>

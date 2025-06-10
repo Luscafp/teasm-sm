@@ -24,7 +24,7 @@ const acidoFolico_01: React.FC = () => {
             <Text className="text-primary text-xl font-bold text-center">Informações</Text>
           </AppButton>
 
-          <AppButton onPress={() => handleNavigate('calcio')}>
+          <AppButton onPress={() => handleNavigate('acido_folico_praticar_01')}>
             <Text className="text-primary text-xl font-bold text-center">Testando {'\n'}Conhecimento</Text>
           </AppButton>
         </View>
