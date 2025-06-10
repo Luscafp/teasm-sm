@@ -11,7 +11,7 @@ const HomeButton = () => {
   return (
     <Pressable 
       onPress={handlePress}
-      className="absolute bottom-0 w-full bg-accent h-[10%] rounded-t-xl justify-center items-center"
+      className="w-full bg-accent h-20 rounded-t-xl justify-center items-center"
     >
       <View className="w-full h-full justify-center items-center">
         <Image source={require('../assets/home.png')} />

@@ -18,38 +18,34 @@ const Gestantes: React.FC = () => {
       </Text>
       <View className="h-0.5 bg-blue-400 mt-2 mb-6 mx-6" />
 
-      <View className="gap-y-4">
-        <AppButton onPress={() => handleNavigate('acido_folico')}>
-          <Text className="text-primary text-xl font-bold text-center">Ácido Fólico</Text>
-        </AppButton>
+      <View className="flex-1 justify-center mt-8 gap-y-4">
+        <View className="gap-y-4">
+          <AppButton onPress={() => handleNavigate('acido_folico')}>
+            <Text className="text-primary text-xl font-bold text-center">Ácido Fólico</Text>
+          </AppButton>
 
-        <AppButton onPress={() => handleNavigate('calcio')}>
-          <Text className="text-primary text-xl font-bold text-center">Cálcio</Text>
-        </AppButton>
+          <AppButton onPress={() => handleNavigate('calcio')}>
+            <Text className="text-primary text-xl font-bold text-center">Cálcio</Text>
+          </AppButton>
 
-        <AppButton onPress={() => handleNavigate('ferro')}>
-          <Text className="text-primary text-xl font-bold text-center">Ferro</Text>
-        </AppButton>
+          <AppButton onPress={() => handleNavigate('ferro')}>
+            <Text className="text-primary text-xl font-bold text-center">Ferro</Text>
+          </AppButton>
+        </View>
       </View>
-
-      <View className="flex-row justify-end items-end mt-auto mb-4 mr-4">
-
-        <View className="bg-danger px-4 py-2 rounded-xl relative max-w-[65%] mr-2">
-            <Text className="text-white font-semibold text-sm">
+      <View className="relative items-end px-4 pb-4">
+        <View className="absolute -top-2 left-4 bg-danger rounded-xl p-3 max-w-[60%] z-10">
+          <Text className="text-sm font-bold text-white">
             Escolha uma opção para aprender mais.
-            </Text>
-            <View className="absolute -bottom-2 left-4 w-4 h-4 bg-danger rotate-45" />
+          </Text>
         </View>
-
         <Image
-            source={require('../../assets/leonardo.png')}
-            className="h-36 w-24"
-            resizeMode="contain"
+          source={require('../../assets/leonardo_2.png')}
+          className="w-64 h-96"
+          resizeMode="contain"
         />
-        </View>
-
-
-      <HomeButton/>
+      </View>
+        <HomeButton/>
     </SafeAreaView>
   );
 };
