@@ -19,7 +19,7 @@ const info: React.FC = () => {
   };
 
   const images: ImageItem[] = [
-    { id: 3, uri: require('assets/vitaminaD.png'), title: "Vitamina D" }
+    { id: 8, uri: require('assets/vitaminaD.png'), title: "Vitamina D" }
   ];
 
   const handleImagePress = (image: ImageItem) => {

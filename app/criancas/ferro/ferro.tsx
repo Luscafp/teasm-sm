@@ -20,11 +20,11 @@ const ferro: React.FC = () => {
 
       <View className="flex-1 justify-center mt-8 gap-y-4">
         <View className="gap-y-4">
-          <AppButton onPress={() => handleNavigate('calcio/info')}>
+          <AppButton onPress={() => handleNavigate('ferro/info')}>
             <Text className="text-primary text-xl font-bold text-center">Informações</Text>
           </AppButton>
 
-          <AppButton onPress={() => handleNavigate('calcio/praticar')}>
+          <AppButton onPress={() => handleNavigate('ferro/praticar')}>
             <Text className="text-primary text-xl font-bold text-center">Testando {'\n'}Conhecimento</Text>
           </AppButton>
         </View>

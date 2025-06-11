@@ -19,7 +19,7 @@ const info: React.FC = () => {
   };
 
   const images: ImageItem[] = [
-    { id: 3, uri: require('assets/ferro_criancas.png'), title: "Ferro" }
+    { id: 6, uri: require('assets/ferro_criancas.png'), title: "Ferro" }
   ];
 
   const handleImagePress = (image: ImageItem) => {
@@ -61,7 +61,7 @@ const info: React.FC = () => {
           </View>
 
           <View className="gap-y-4 mb-24 px-6"> 
-            <AppButton onPress={() => handleNavigate('calcio/saiba_mais')}>
+            <AppButton onPress={() => handleNavigate('ferro/saiba_mais')}>
               <Text className="text-primary text-xl font-bold text-center">Saiba mais</Text>
             </AppButton>
           </View>

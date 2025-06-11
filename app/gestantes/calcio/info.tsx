@@ -19,7 +19,7 @@ const info: React.FC = () => {
   };
 
   const images: ImageItem[] = [
-    { id: 3, uri: require('assets/calcio.png'), title: "Cálcio" }
+    { id: 4, uri: require('assets/calcio.png'), title: "Cálcio" }
   ];
 
   const handleImagePress = (image: ImageItem) => {

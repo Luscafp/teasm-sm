@@ -19,7 +19,7 @@ const info: React.FC = () => {
   };
 
   const images: ImageItem[] = [
-    { id: 3, uri: require('assets/ferro_gestantes.png'), title: "Ferro" }
+    { id: 5, uri: require('assets/ferro_gestantes.png'), title: "Ferro" }
   ];
 
   const handleImagePress = (image: ImageItem) => {
