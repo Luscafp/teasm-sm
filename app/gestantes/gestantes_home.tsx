@@ -12,13 +12,13 @@ const Gestantes: React.FC = () => {
   };
 
   return (
-    <SafeAreaView className="bg-background flex-1 px-6 pt-4">
+    <SafeAreaView className="bg-background flex-1 pt-4">
       <Text className="text-primary text-center text-2xl font-bold uppercase">
         Gestantes e{'\n'}Puérperas
       </Text>
       <View className="h-0.5 bg-blue-400 mt-2 mb-6 mx-6" />
 
-      <View className="flex-1 justify-center mt-8 gap-y-4">
+      <View className="flex-1 justify-center mt-8 gap-y-4 px-6">
         <View className="gap-y-4">
           <AppButton onPress={() => handleNavigate('acido folico/acido_folico')}>
             <Text className="text-primary text-xl font-bold text-center">Ácido Fólico</Text>

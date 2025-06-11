@@ -1,8 +1,7 @@
-import { AppButton } from 'components/button';
 import { ExpandableButton } from 'components/expandableButton';
 import HomeButton from 'components/home_button';
 import { useRouter } from 'expo-router';
-import { Image, ScrollView, Text, View } from 'react-native';
+import { ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 const saiba_mais: React.FC = () => {

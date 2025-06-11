@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "TEASM-SMI",
-    "slug": "TEASM-SMI",
+    "slug": "TEAMSM-SMI",
     "version": "1.0.0",
     "web": {
       "favicon": "./assets/logo.png"
@@ -28,8 +28,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./logo.png",
+        "backgroundColor": "#005CC7"
       },
       "package": "com.luscafp.TEAMSMSMI"
     },

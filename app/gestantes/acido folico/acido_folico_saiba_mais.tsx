@@ -4,6 +4,7 @@ import HomeButton from 'components/home_button';
 import { useRouter } from 'expo-router';
 import { Image, ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import React from 'react';
 
 const AcidoFolicoSaibaMais: React.FC = () => {
   const router = useRouter();
