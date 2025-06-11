@@ -29,40 +29,28 @@ const saiba_mais: React.FC = () => {
 
         <View className="mb-8 space-y-4">
           <ExpandableButton
-            title="Alimentos ricos"
-            content="Leite e derivados: queijo, iogurte;
-Vegetais de folhas escuras: couve, espinafre; manjericão, Vinagreira e agrião
-Peixes: sardinha e salmão com ossos;
-Sementes e castanhas: chia, amêndoas, gergelim;
-Alimentos enriquecidos: leite vegetal e cereais fortificados."
+            title="Alimentos ricos em cálcio"
+            content={`• Leite e derivados:\n  - Queijo\n  - Iogurte\n\n• Vegetais de folhas escuras:\n  - Couve\n  - Espinafre\n  - Manjericão\n  - Vinagreira\n  - Agrião\n\n• Peixes:\n  - Sardinha (com ossos)\n  - Salmão (com ossos)\n\n• Sementes e castanhas:\n  - Chia\n  - Amêndoas\n  - Gergelim\n\n• Alimentos enriquecidos:\n  - Leite vegetal fortificado\n  - Cereais fortificados`}
           />
 
           <ExpandableButton
             title="Importância da suplementação"
-            content="Na prevenção de  distúrbios hipertensivos, especialmente a pré-eclâmpsia, que é uma das principais causas de morbimortalidade materna e perinatal no Brasil.
- Pré-eclâmpsia é uma complicação da gravidez caracterizada pelo aumento da pressão arterial (hipertensão) e pela presença de proteínas na urina (proteinúria), podendo levar a inchaço e danos em órgãos como fígado e rins. Se não for tratada, pode evoluir para eclampsia, uma condição grave que causa convulsões, podendo colocar em risco a vida da mãe e do bebê."
+            content={`• Prevenção de distúrbios hipertensivos:\n  - Principalmente pré-eclâmpsia\n  - Redução de morbimortalidade materna e perinatal\n\nO que é pré-eclâmpsia?\n\n- Complicação da gravidez caracterizada por:\n  • Pressão arterial elevada (hipertensão)\n  • Presença de proteínas na urina (proteinúria)\n\nRiscos:\n\n• Pode causar inchaço e danos a órgãos (fígado, rins)\n• Pode evoluir para eclampsia (convulsões)\n• Risco de vida para mãe e bebê`}
           />
 
           <ExpandableButton
             title="Recomendações para uso"
-            content="Evitar tomar o suplemento de cálcio junto com alimentos como feijão, fígado, espinafre, acelga, couve, beterraba, batata-doce, sementes, castanhas e cereais, pois eles contêm substâncias que podem atrapalhar a absorção do cálcio. 
-O consumo excessivo de cafeína e alimentos ultraprocessados também pode reduzir a absorção desse mineral.
-Uma boa opção é tomar o suplemento à noite, acompanhado de um copo de leite ou suco de frutas, para ajudar na absorção do cálcio."
+            content={`• Evitar consumir com:\n  - Feijão\n  - Fígado\n  - Vegetais: espinafre, acelga, couve, beterraba\n  - Batata-doce\n  - Sementes e castanhas\n  - Cereais\n  (Contêm substâncias que prejudicam absorção)\n\n• Reduzir:\n  - Cafeína\n  - Alimentos ultraprocessados\n\n• Melhor horário:\n  - À noite\n  - Acompanhado de leite ou suco de frutas\n  (Ajuda na absorção do cálcio)`}
           />
 
           <ExpandableButton
             title="Quem pode prescrever?"
-            content="A prescrição pode ser feita por médicos(as), enfermeiros(as) e nutricionistas das equipes da Atenção Primária à Saúde (APS)."
+            content="Profissionais da Atenção Primária à Saúde (APS):\n\n• Médicos(as)\n• Enfermeiros(as)\n• Nutricionistas"
           />
 
           <ExpandableButton
-            title="Recomendações"
-            content="Incentivar uma alimentação saudável e equilibrada, que é essencial para a saúde da gestante e o desenvolvimento do feto;
-Recomendar o consumo de alimentos naturais ou pouco processados, que são melhores para o desenvolvimento do feto e para a saúde da gestante, além de ajudar a prevenir problemas de saúde;
-Alertar sobre os riscos de alimentos ultraprocessados, que podem prejudicar tanto a gestante quanto para a crianças;
-Garantir não só a suplementação  com cálcio, mas também incentivando hábitos alimentares saudáveis para a gestante e para a criança;
-Orientar a gestante sobre o uso correto do cálcio, quanto à dosagem e ao horário correto; 
-Orientar a gestante a procurar a unidade de saúde caso apresente  algum desconforto com o uso do cálcio."
+            title="Recomendações gerais"
+            content={`• Alimentação:\n  - Incentivar dieta saudável e equilibrada\n  - Priorizar alimentos naturais ou pouco processados\n  - Alertar sobre riscos dos ultraprocessados\n\n• Suplementação:\n  - Orientar sobre dosagem correta\n  - Explicar horário ideal de consumo\n\n• Acompanhamento:\n  - Orientar procurar unidade de saúde em caso de desconforto\n  - Garantir hábitos alimentares saudáveis para gestante e criança`}
           />
         </View>
       </ScrollView>

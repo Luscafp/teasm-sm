@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "my-expo-app",
-    "slug": "my-expo-app",
+    "name": "TEASM-SMI",
+    "slug": "TEASM-SMI",
     "version": "1.0.0",
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo.png"
     },
     "experiments": {
       "tsconfigPaths": true
@@ -13,10 +13,10 @@
       "expo-router"
     ],
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -30,6 +30,13 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.luscafp.TEAMSMSMI"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b6035e87-6f65-4677-a71f-cfed4f99187b"
       }
     }
   }

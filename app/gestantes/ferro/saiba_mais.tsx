@@ -30,43 +30,23 @@ const saiba_mais: React.FC = () => {
         <View className="mb-8 space-y-4">
           <ExpandableButton
             title="Funções do ferro na gestação"
-            content="️Formação da hemoglobina (proteína responsável pelo transporte de oxigênio para todas as células do corpo)
-Contribui positivamente para o sistema imunológico defendendo a gestante de infecções 
-Aumento da produção de glóbulos vermelhos, pois  durante a gestação há uma aumento na necessidade de oxigênio."
+            content={`• Formação da hemoglobina:\n  - Proteína responsável pelo transporte de oxigênio\n  - Leva oxigênio para todas as células do corpo\n\n• Fortalecimento imunológico:\n  - Protege a gestante contra infecções\n\n• Produção de glóbulos vermelhos:\n  - Aumenta durante a gestação\n  - Atende maior necessidade de oxigênio`}
           />
 
           <ExpandableButton
-            title="Alimentos ricos"
-            content="O ferro pode ser encontrado em uma variedade de alimentos, tanto de origem animal quanto vegetal. 
-
-Alimentos de origem Animal: 
-Carnes vermelhas como carne de boi, cordeiro e porco.
-Aves como frango e peru, especialmente as partes escuras.
-Peixes e frutos do mar como atum, sardinha, sururu, e ostras.
-
-Alimentos de Origem  vegetal: 
-Leguminosas (fava feijão, lentilha, grão-de-bico e ervilhas);
-Vegetais de folhas verdes escuras  (couve e brócolis); 
-Sementes e nozes (sementes de abóbora, gergelim e amêndoas); 
-Grãos integrais (aveia e arroz integral.)"
+            title="Alimentos ricos em ferro"
+            content={`Fontes animais:\n\n• Carnes vermelhas:\n  - Carne de boi\n  - Cordeiro\n  - Porco\n\n• Aves:\n  - Frango (partes escuras)\n  - Peru (partes escuras)\n\n• Peixes e frutos do mar:\n  - Atum\n  - Sardinha\n  - Sururu\n  - Ostras\n\nFontes vegetais:\n\n• Leguminosas:\n  - Fava\n  - Feijão\n  - Lentilha\n  - Grão-de-bico\n  - Ervilhas\n\n• Vegetais:\n  - Couve\n  - Brócolis\n\n• Sementes e nozes:\n  - Sementes de abóbora\n  - Gergelim\n  - Amêndoas\n\n• Grãos integrais:\n  - Aveia\n  - Arroz integral`}
           />
 
           <ExpandableButton
             title="Importância da suplementação"
-            content="Durante a gravidez, as necessidades de ferro aumentam muito porque o corpo precisa produzir mais sangue para a mãe e a criança. Porém, muitas mulheres não conseguem obter ferro suficiente apenas pela alimentação. Por isso, a suplementação é essencial para prevenir e tratar a deficiência de ferro.
-ATENÇÃO:
-Não fazer suplementação de ferro em mulheres portadoras de anemia falciforme, talassemias e hemacromatose e aquelas que são alérgicas ao ferro"
+            content={`• Necessidades aumentadas:\n  - Produção de mais sangue para mãe e bebê\n  - Dificuldade em obter ferro suficiente apenas pela alimentação\n\n• Benefícios:\n  - Previne deficiência de ferro\n  - Trata anemia ferropriva\n\nATENÇÃO:\n\nContraindicações:\n- Anemia falciforme\n- Talassemias\n- Hemocromatose\n- Alergia ao ferro`}
           />
 
           <ExpandableButton
             title="Recomendações"
-            content="Esclarecer sobre a importância da suplementação para a mãe e para a criança;
-Esclarecer sobre a dose, o horário a ser tomado e o tempo de duração da suplementação;
-Corrigir  hábitos alimentares para aumentar o consumo de ferro;
-Orientar sobre os possíveis efeitos colaterais ( náusea, dor abdominal, diarreia ou constipação) e como aliviá-los;
-Orientar sobre os alimentos ricos em ferro, os que facilitam ou dificultam a absorção do ferro."
+            content={`• Educação:\n  - Explicar importância para mãe e bebê\n  - Orientar sobre dose e horário\n  - Esclarecer duração do tratamento\n\n• Alimentação:\n  - Aumentar consumo de alimentos ricos em ferro\n  - Identificar alimentos que ajudam ou atrapalham absorção\n\n• Efeitos colaterais:\n  - Náusea\n  - Dor abdominal\n  - Diarreia ou constipação\n  - Orientar como aliviar sintomas`}
           />
-
         </View>
       </ScrollView>
 

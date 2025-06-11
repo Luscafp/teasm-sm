@@ -30,28 +30,22 @@ const saiba_mais: React.FC = () => {
         <View className="mb-8 space-y-4">
           <ExpandableButton
             title="Funções da vitamina D"
-            content="● Regulação do cálcio e do fósforo, minerais fundamentais para a formação e manutenção de ossos e dentes saudáveis; 
-● Está envolvida na função muscular, ajudando a manter a força e a função muscular adequadas."
+            content={`• Regulação do cálcio e do fósforo:\n  - Minerais fundamentais para formação e manutenção de ossos e dentes saudáveis\n\n• Função muscular:\n  - Ajuda a manter a força e função muscular adequadas`}
           />
 
           <ExpandableButton
             title="Alimentos ricos"
-            content="● Peixes gordurosos, como salmão, atum e sardinha (melhores fontes de vitamina D); ● Óleo de fígado de bacalhau, fígado bovino, queijos e gemas de ovo. 
-● Leite, sucos e cereais, são frequentemente fortificados com vitamina D para ajudar a aumentar a ingestão dessa vitamina na população. 
-
-IMPORTANTE: a vitamina D pode ser encontrada em diversas fontes, sendo a principal delas a exposição à luz solar. Quando a pele é exposta à radiação ultravioleta B (UVB), ela sintetiza vitamina D de forma natural. Por isso, a quantidade de vitamina D que uma pessoa produz pode variar de acordo com fatores como a localização geográfica, a estação do ano, a hora do dia e a pigmentação da pele. No entanto, não é recomendado banho de sol para essas crianças."
+            content={`Fontes animais:\n\n• Peixes gordurosos (melhores fontes):\n  - Salmão\n  - Atum\n  - Sardinha\n\n• Óleo de fígado de bacalhau\n• Fígado bovino\n• Queijos\n• Gemas de ovo\n\nAlimentos fortificados:\n\n• Leite\n• Sucos\n• Cereais\n\nIMPORTANTE:\n\nA principal fonte de vitamina D é a exposição à luz solar. Quando a pele é exposta à radiação UVB, ela sintetiza vitamina D naturalmente. A produção varia conforme:\n\n• Localização geográfica\n• Estação do ano\n• Hora do dia\n• Pigmentação da pele\n\nObservação: Não é recomendado banho de sol para crianças.`}
           />
 
           <ExpandableButton
-            title="Importância da suplementação  "
-            content="A vitamina D é essencial para o crescimento saudável, pois ajuda na absorção de cálcio e fortalece os ossos e dentes. A falta dessa vitamina pode causar cansaço, fraqueza e, em casos graves, raquitismo, deixando os ossos frágeis e deformados e diminuir a imunidade. Por isso, a suplementação é recomendada para garantir o desenvolvimento adequado e prevenir problemas de saúde."
+            title="Importância da suplementação"
+            content={`A vitamina D é essencial para:\n\n• Crescimento saudável\n• Absorção de cálcio\n• Fortalecimento de ossos e dentes\n\nConsequências da deficiência:\n\n• Cansaço e fraqueza\n• Raquitismo (ossos frágeis e deformados)\n• Diminuição da imunidade\n\nA suplementação garante:\n\n• Desenvolvimento adequado\n• Prevenção de problemas de saúde`}
           />
 
           <ExpandableButton
             title="Recomendações"
-            content="● Informar aos pais que sigam rigorosamente a dose prescrita, evitando superdosagens; 
-● Orientar aos pais que a criança tenha uma alimentação equilibrada;
-● Orientar aos pais que guardem o frasco com a Vitamina D em local fresco e arejado e fora do alcance de crianças."
+            content={`• Dosagem:\n  - Seguir rigorosamente a dose prescrita\n  - Evitar superdosagens\n\n• Alimentação:\n  - Manter dieta equilibrada\n\n• Armazenamento:\n  - Guardar o frasco em local fresco e arejado\n  - Manter fora do alcance de crianças`}
           />
         </View>
       </ScrollView>
