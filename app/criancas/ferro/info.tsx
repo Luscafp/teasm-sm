@@ -15,11 +15,11 @@ const info: React.FC = () => {
   const router = useRouter();
 
   const handleNavigate = (screen: string) => {
-    router.push(`/gestantes/${screen}`);
+    router.push(`/criancas/${screen}`);
   };
 
   const images: ImageItem[] = [
-    { id: 3, uri: require('assets/calcio.png'), title: "Cálcio" }
+    { id: 3, uri: require('assets/ferro_criancas.png'), title: "Ferro" }
   ];
 
   const handleImagePress = (image: ImageItem) => {
@@ -38,7 +38,7 @@ const info: React.FC = () => {
         <View className="flex-1">
           <View className="w-full bg-background py-4 px-4">
             <Text className="text-xl font-bold text-center text-primary uppercase">
-              Cálcio
+              Ferro
             </Text>
             <View className="h-0.5 bg-blue-500 mx-4 mt-2" />
           </View>

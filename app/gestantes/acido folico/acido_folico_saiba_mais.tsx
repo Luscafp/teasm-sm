@@ -2,7 +2,7 @@ import { AppButton } from 'components/button';
 import { ExpandableButton } from 'components/expandableButton';
 import HomeButton from 'components/home_button';
 import { useRouter } from 'expo-router';
-import { Image, ScrollView, Text, TouchableOpacity, View } from 'react-native';
+import { Image, ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 const AcidoFolicoSaibaMais: React.FC = () => {
